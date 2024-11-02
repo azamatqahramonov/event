@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 1 --------- -->
+      <h1>1-misol</h1>
+      <button id="btn">Bosing</button>
+      <div id="button__container"></div>
+
+      <!-- 2 --------- -->
+      <h1>2-misol</h1>
+      <h1>Q - red, D - black, B - blue, S - yellow</h1>
+      <div id="color"></div>
+
+      <!--3 --------- -->
+      <h1>3-misol</h1>
+      <button id="randomBtn">Tasodifiy raqamni ko'rsat</button>
+      <p id="randomNumber"></p>
+
+      <!--4 --------- -->
+      <h1>4-misol</h1>
+      <button id="changeBgBtn">Fon rangini o'zgartir</button>
+
+      <!--5 --------- -->
+      <h1>5-misol</h1>
+      <button id="startSlideShow">Slideshowni boshlash</button>
+      <img
+        id="slideImage"
+        src="./images/image-1.avif"
+        alt="slideshow"
+        width="200"
+      />
+
+      <!--o'yin --------- -->
+      <h1>Men o'ylagan sonni toping</h1>
+      <input
+        type="text"
+        id="userGuess"
+        placeholder="1 dan 10 gacha son kiriting"
+        min="1"
+        max="10"
+      />
+      <button onclick="checkGuess()">Topish</button>
+      <div class="message" id="message"></div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
